@@ -1,0 +1,55 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Secrets, Tokens & Environment Configs
+.env
+.env.*
+!.env.example
+*.token
+*.key
+*.pem
+*.cert
+
+# Local Databases, Artifacts & Vector Tables
+data/
+lancedb_data/
+*.lance/
+*.lance
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Hugging Face / Model Caches & Large Binaries
+models/
+snapshots/
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# IDEs & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Terminal & Shell History
+.bash_history
+.zsh_history
+.history
+.node_repl_history
+.python_history
