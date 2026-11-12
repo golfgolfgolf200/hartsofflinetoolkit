@@ -26,7 +26,7 @@ Compared to traditional search utilities (like `grep` or Recoll), cloud RAG plat
 
 ---
 
-## Myriad Use Cases
+## Use Cases
 
 ### 1. Legal & Regulatory Discovery (Air-Gapped Workstations)
 - **Privileged Attorney-Client Records:** Search litigation files, discovery bundles, depositions, and non-disclosure agreements without exposing confidential data to cloud LLM vendors.
